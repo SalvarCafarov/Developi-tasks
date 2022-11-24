@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1></h1>
+    <form id="form">
+        <label for="name">name: </label>
+        <input type="text " name="name" class="nameInput" required>
+        <label for="surname">surname: </label>
+        <input type="text" name="surname" class="surInput" required>
+        <label for="born">born: </label>
+        <input type="date" name="born" class="bornInput" required>
+        <label for="sector">Sektor:</label>
+        <select name="sector" id="sector">
+            <option value="az">AZ</option>
+            <option value="ru">RUS</option>
+            <option value="ing">ING</option>
+          </select>
+
+        <button type="submit" class="btn">Submit</button>
+    </form>
+
+    <table border="1" style="margin-top: 40px;">
+        <thead>
+            <tr>
+                <td>N</td>
+                <td>Name</td>
+                <td>Surname</td>
+                <td>Birthdate</td>
+                <td>Sektor</td>
+                <td>Edit</td>
+                <td>Delete</td>
+
+            </tr>
+
+        </thead>
+        <tbody class="table-cont">
+            
+
+        </tbody>
+    </table>
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
